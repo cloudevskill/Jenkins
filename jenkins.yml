@@ -19,7 +19,7 @@
       yum:
         name: java
         state: lastest
-    - name: "Stating Jenkins"          
+    - #name: "Stating Jenkins"          
       service:
         name: jenkins
         state: started
