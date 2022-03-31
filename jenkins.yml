@@ -15,7 +15,7 @@
       yum: 
         name: jenkins
         state: latest
-    - name: 'Install java'    
+    - name: 'Install some random'    
       yum:
         name: java
         state: lastest
