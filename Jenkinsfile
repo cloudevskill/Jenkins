@@ -1,24 +1,26 @@
 pipeline {
     
     agent any
+    trigger 
+    
   
   stages {
     
-    stage("build") {
+    stage("UAT") {
       
       steps {
         echo 'Build the application..'
       }
     }
     
-    stage("Test") {
+    stage("STAG") {
       
       steps {
         echo 'Testing the application..'
       }
     }
     
-    stage("deploy") {
+    stage("PROD") {
       
       steps {
         echo 'deploying  the application..'
